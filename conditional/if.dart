@@ -1,15 +1,8 @@
 void main() { 
 
-    var nilai = "dsds";
-    var mood = "happy";
-    var minimarketStatus1 = "open";
-    var minimarketStatus2 = "close";
-    var minimarketStatus3 = "open";
-    var minuteRemainingToOpen = 5;
-    var telur = "soldout";
-    var buah = "soldout";
-    
     // CONTOH PERTAMA 
+    var nilai = true;
+
     if (nilai == true) {
         // OUTPUT TRUE
         print("\njalankan code");
@@ -25,12 +18,16 @@ void main() {
     }
     
     // CONTOH KEDUA
+    var mood = "happy";    
+
     if (mood == "happy") {
 
         print("\nhari ini aku bahagia!");
     }
 
     // CONTOH KETIGA
+    var minimarketStatus1 = "open";
+
     if (minimarketStatus1 == "open") {
         // OUTPUT TRUE
         print("\nsaya akan membeli telur dan buah");
@@ -41,7 +38,10 @@ void main() {
     }
 
     // CONTOH KELIMA
-    if (minimarketStatus1 == "open") {
+    var minimarketStatus2 = "close";
+    var minuteRemainingToOpen = 5;
+
+    if (minimarketStatus2 == "open") {
         // OUTPUT TRUE
         print("\nsaya akan membeli telur dan buah");
 
@@ -56,6 +56,10 @@ void main() {
     }
 
     // CONTOH KEENAM
+    var minimarketStatus3 = "open";
+    var telur = "soldout";
+    var buah = "soldout";
+
     if (minimarketStatus3 == "open") {
         
         print("\nsaya akan membeli telur dan buah");
